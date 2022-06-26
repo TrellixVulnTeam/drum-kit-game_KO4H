@@ -1,0 +1,10 @@
+.header {
+    align-items: center;
+    color: $color-very-light-blue;
+    display: flex;
+    font-size: 5rem;
+    font-family: 'Avro', cursive;
+    min-height: $desktop-header-height;
+    justify-content: center;
+    text-shadow: 3px 0 $color-pink;
+}

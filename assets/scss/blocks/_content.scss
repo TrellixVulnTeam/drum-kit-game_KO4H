@@ -1,0 +1,34 @@
+.content {
+    text: red;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: calc(100vh - #{$desktop-footer-height + $desktop-header-height});
+
+    &-w-button,
+    &-a-button,
+    &-s-button,
+    &-d-button,
+    &-j-button,
+    &-k-button,
+    &-l-button,
+    {
+        border: 10px solid $color-light-blue;
+        border-radius: 15px;
+        background: #fff;
+        color: $color-pink;
+        font-size: 5rem;
+        font-family: 'Avro', cursive;
+        font-weight: 900;
+        height: 150px;
+        line-height: 1px;
+        margin: 20% auto;
+        text-shadow: 5px 0 #DBEDF3;
+        width: 150px;
+    }
+}
+
+.buttonPressed {
+    color: #fff;
+    border-color: $color-brown;
+    opacity: 50%;
+}
